@@ -41,6 +41,10 @@
     align-items: center;
     flex-direction: column;
   }
+  .card {
+    width: 20rem;
+    height: 20rem;
+  }
   .imgcard {
     width: 100%;
   }
