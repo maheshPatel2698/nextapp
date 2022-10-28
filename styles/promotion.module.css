@@ -1,0 +1,17 @@
+.main {
+  margin-top: 0.25rem;
+}
+.p {
+  text-align: center;
+}
+
+.imgclass {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-around;
+  justify-items: center;
+}
+.img {
+  margin: 0.15rem;
+  border: none;
+}

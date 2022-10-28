@@ -1,21 +1,26 @@
-.homesec {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-content: center;
-  align-items: center;
-}
-.imgsec {
+.mainsec {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 0.45rem;
 }
 
+.imgsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  height: 15rem;
+  flex-direction: column;
+}
+
+.p {
+  text-align: center;
+}
 @media (max-width: 800px) {
-  .homesec {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .mainsec {
+    flex-wrap: wrap;
     flex-direction: column;
   }
 }

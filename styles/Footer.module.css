@@ -1,0 +1,54 @@
+.footer {
+  height: auto;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  cursor: pointer;
+  color: black;
+  font-weight: 500;
+  border-top: 2px solid black;
+}
+.heading {
+  text-align: center;
+}
+.subheading {
+  text-align: center;
+}
+
+.mainsection {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: auto;
+  margin: 0.35rem;
+}
+.sitemap {
+  margin: 0.35rem;
+  padding: 0.45rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.social {
+  margin: 0.35rem;
+  padding: 0.45rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.info {
+  margin: 0.35rem;
+  padding: 0.45rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.info span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
