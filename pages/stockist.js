@@ -89,7 +89,7 @@ const stockist = () => {
                     return (
                         <div key={index} className={styles.card}>
                             <div className={styles.imgcard}>
-                                <Image className={styles.img} src={c?.src} />
+                                <Image className={styles.img} src={c?.src} alt="image" />
                             </div>
                             <div className={styles.btn}>
                                 <Button variant='solid'>{c?.name}</Button>
