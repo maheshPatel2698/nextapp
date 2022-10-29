@@ -83,19 +83,7 @@ const stockist = () => {
             <Heading textAlign='center' as='h1' size='xl'>
                 Stockist At
             </Heading>
-            <motion.div className={styles.clientsec} initial="hidden" animate="visible" variants={{
-                hidden: {
-                    scale: .8,
-                    opacity: 0
-                },
-                visible: {
-                    scale: 1,
-                    opacity: 1,
-                    transition: {
-                        delay: .4
-                    }
-                },
-            }}>
+            <div className={styles.clientsec} >
 
                 {client.map((c, index) => {
                     return (
@@ -110,7 +98,7 @@ const stockist = () => {
                     )
                 })}
 
-            </motion.div>
+            </div>
         </>
     )
 }
