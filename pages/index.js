@@ -38,7 +38,7 @@ export default function Home() {
         <motion.div className={styles.imgsec} >
           <Image width={350} height={350} alt='images' src='/clients.jpg' />
           <Button m={2} variant='outline' color='black'>
-            <Link href="/ourclients">Clients</Link>
+            <Link href="/clients">Clients</Link>
           </Button>
         </motion.div>
         <motion.div className={styles.imgsec} initial="hidden" animate="visible" variants={{
